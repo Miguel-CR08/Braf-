@@ -132,17 +132,12 @@ body {
 
 /*Produtos*/
 
-<<<<<<< HEAD
 .produtos {
-=======
-.produtos{
->>>>>>> e70459e3a84366e702cf579898d64cb9eea90282
     background-color: #e7e4e8;
     border-top: 3px solid #d6d3c8;
     border-bottom: 3px solid #d6d3c8;
     padding: 60px 0;
 }
-<<<<<<< HEAD
 
 .produtos-item {
     flex: 1;
@@ -150,23 +145,12 @@ body {
 }
 
 .produtos-item h2 {
-=======
-.produtos-item{
-    flex: 1;
-    margin: 0 10px 40px 10px;
-}
-.produtos-item h2{
->>>>>>> e70459e3a84366e702cf579898d64cb9eea90282
     font-size: 2.25em;
     text-align: center;
     margin-bottom: 20px;
 }
-<<<<<<< HEAD
 
 .produtos-item h2:before {
-=======
-.produtos-item h2:before{
->>>>>>> e70459e3a84366e702cf579898d64cb9eea90282
     content: '';
     display: block;
     width: 100px;
@@ -177,7 +161,6 @@ body {
     box-shadow: 0 0 0 5px;
     margin: 20px auto;
 }
-<<<<<<< HEAD
 
 h2.produtos-paulista::before {
     color: #492201;
@@ -191,27 +174,12 @@ h2.produtos-mineiro::before {
     color: #d7a54d;
 }
 
-=======
-h2.produtos-paulista::before{
-    color: #492201;
-}
-h2.produtos-carioca::before{
-    color: #c17139;
-}
-h2.produtos-mineiro::before{
-    color: #d7a54d;
-}
->>>>>>> e70459e3a84366e702cf579898d64cb9eea90282
 .produtos-item {
     font-size: 0.875em;
     line-height: 1.4em;
 }
-<<<<<<< HEAD
 
 .produtos-btn {
-=======
-.produtos-btn{
->>>>>>> e70459e3a84366e702cf579898d64cb9eea90282
     border: 3px solid #252525;
     color: #252525;
     text-decoration: none;
@@ -223,7 +191,6 @@ h2.produtos-mineiro::before{
     padding: 15px 0;
     margin: 20px auto;
 }
-<<<<<<< HEAD
 
 /* Localidades */
 .locais{
@@ -258,5 +225,74 @@ h2.produtos-mineiro::before{
     color: #252525;
     padding: 10px 20px;
 }
-=======
->>>>>>> e70459e3a84366e702cf579898d64cb9eea90282
+
+/* Assine */
+.assine{
+    background-color: #e7e4d8;
+    padding:30px 0;
+}
+    
+.assine-info{
+    flex: 1;
+    margin: 0 10px;
+}
+    
+.assine-info h2{
+    font-size: 2.25em;
+}
+    
+.assine-info p{
+        font-size: 1.5em;
+        font-style: italic;
+}
+    
+.assine form{
+    flex: 1;
+    margin: 0 10px;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+    
+    
+.assine form label{
+    display: none;
+}
+.assine input{
+    flex:1;
+    align-self: flex-start;
+    padding: 10px;
+    border: 3px solid #252525;
+    background-color: none;
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: Georgia, serif;
+}
+    
+.assine button{
+    flex: 1;
+    align-self: flex-start;
+    padding: 13px;
+    background-color: #252525;
+    border: none;
+    font-family: Georgia, serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #ffff;
+    cursor: pointer;
+}
+/* FOOTER */
+.footer{
+    background-color: #d6d3c8;
+    padding: 40px 0;
+}
+    
+.footer-img{
+    margin: 0 10px;
+    flex: 1;
+}
+.footer p{
+    font-size: 1.125em;
+    line-height: 1.4em;
+}
+
